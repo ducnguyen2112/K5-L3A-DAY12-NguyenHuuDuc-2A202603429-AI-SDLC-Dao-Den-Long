@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Đảo Đèn Lồng · Đêm 1</title><link rel="stylesheet" href="/style.css"></head>
+<body><canvas id="world" aria-label="Đảo Đèn Lồng, trò chơi 3D"></canvas>
+<header><div class="brand">✦ ĐẢO ĐÈN LỒNG <span>CHUYỆN CỦA MÂY</span></div><div class="chapter">ĐÊM 01 <b>Đảo Bến</b></div><button id="sound" aria-label="Bật tắt âm thanh">Âm thanh: tắt</button></header>
+<aside id="hud"><div class="eyebrow">GIỮ MỘT CHÚT SÁNG, THẮP CẢ BẦU TRỜI</div><h1>Đêm còn dài.<br>Đừng để đèn tắt.</h1><p id="objective">Tìm đom đóm và thắp 5 ngọn đèn trên đảo.</p><div class="resources"><div><small>NGỌN LỬA</small><strong id="health">♨ ♨ ♨</strong></div><div><small>ĐOM ĐÓM</small><strong id="carry">0 <i>/ 20</i></strong></div></div><div id="lantern-status">○ ○ ○ ○ ○</div><div class="numbers"><span id="time">05:00</span><span>ĐIỂM <b id="score">0</b></span></div></aside>
+<div id="toast" role="status"></div><div id="prompt"></div>
+<footer><span><kbd>W A S D</kbd> Di chuyển <kbd>Space</kbd> Nhảy <kbd>E</kbd> Nạp đèn <kbd>F</kbd> Tỏa sáng</span><span>Kéo chuột: xoay góc nhìn · <kbd>P</kbd> Tạm dừng</span></footer>
+<div id="overlay"><section><div class="eyebrow">MỘT HÒN ĐẢO. NĂM NGỌN ĐÈN. MỘT CHÚT CAN ĐẢM.</div><h2 id="title">Đảo Đèn Lồng</h2><p id="story">Sương đen đã ghé Đảo Bến.<br>Đội nón lên nào, Mây. Mang những đốm sáng về nhà.</p><div class="instructions"><p><b>01</b> Chạm đom đóm để nhặt. Mỗi đèn cần 10 đốm.</p><p><b>02</b> Đứng cạnh đèn, nhấn E để nạp ánh sáng.</p><p><b>03</b> Nhấn F để xua Bóng Mực, tốn 3 đốm sáng.</p><p><b>04</b> Đèn đã sáng là nơi an toàn. Thắp đủ 5 đèn để thắng.</p></div><button id="start">Thắp lên cuộc phiêu lưu <span>↗</span></button><small>WASD · SPACE · E · F · Kéo chuột để xoay camera</small></section></div>
+<div id="error" hidden></div><script type="module" src="/main.js"></script></body></html>
